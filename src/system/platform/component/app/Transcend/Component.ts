@@ -152,12 +152,13 @@ export default class Transcend extends Element<HTMLDivElement, Props> {
 
     this.$element = $element
     this.$slot = container.$slot
-    this.$subComponent = {
-      container,
-      icon,
-    }
     this.$unbundled = false
     this.$primitive = true
+
+    this.setSubComponents({
+      container,
+      icon,
+    })
 
     this.registerRoot(container)
 

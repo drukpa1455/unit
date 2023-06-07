@@ -1,6 +1,6 @@
 # Getting Started
 
-Following is a list of useful features that can help you with graph manipulation.
+Following is a list of useful graph manipulation features.
 
 ## Search
 
@@ -78,9 +78,11 @@ To enter Remove Mode (Red Mode) you can either click on the "x" mode button or p
 
 Clicking on any node (unit, datum, etc.) will cut that node out, effectively deactivating, removing it from the graph, and adding to the Clipboard.
 
+![](/public/gif/start/5.gif)
+
 This also useful as a quick manual way of deleting data iteratively.
 
-![](/public/gif/start/5.gif)
+![](/public/gif/start/37.gif)
 
 Many nodes can be removed with Multiselection.
 
@@ -159,3 +161,9 @@ To enter a graph unit, Long Click on it. To leave, Long Click on the background.
 You can edit a unit from inside.
 
 ![](/public/gif/start/32.gif)
+
+## Undo | Redo
+
+To undo last action, press <kbd>Ctrl + Z</kbd>. To redo, press <kbd>Ctrl + Shift + Z</kbd>.
+
+![](/public/gif/start/38.gif)

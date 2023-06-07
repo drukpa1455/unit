@@ -41,6 +41,8 @@ export function watchGraphMoveSubgraphEvent(
         nextPlugSpec,
         nextSubComponentParentMap,
         nextSubComponentChildrenMap,
+        nextSubComponentIndexMap: {}, // TODO
+        nextUnitPinMergeMap: {},
         path,
       },
     })

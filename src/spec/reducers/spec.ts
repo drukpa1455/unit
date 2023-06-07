@@ -1,20 +1,20 @@
 import assocPath from '../../system/core/object/AssocPath/f'
 import pathGet from '../../system/core/object/DeepGet/f'
-import dissocPath from '../../system/core/object/DissocPath/f'
+import dissocPath from '../../system/core/object/DeletePath/f'
 import forEachValueKey from '../../system/core/object/ForEachKeyValue/f'
 import deepMerge from '../../system/f/object/DeepMerge/f'
-import _dissoc from '../../system/f/object/Dissoc/f'
+import _dissoc from '../../system/f/object/Delete/f'
 import merge from '../../system/f/object/Merge/f'
 import _set from '../../system/f/object/Set/f'
 import {
   GraphMergeSpec,
   GraphMergesSpec,
   GraphPinSpec,
-  GraphSpec,
   GraphSubPinSpec,
   GraphUnitSpec,
   GraphUnitsSpec,
 } from '../../types'
+import { GraphSpec } from '../../types/GraphSpec'
 import { IO } from '../../types/IO'
 import { forEach } from '../../util/array'
 import {

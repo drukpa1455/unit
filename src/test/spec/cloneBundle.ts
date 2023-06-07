@@ -5,13 +5,13 @@ import { ID_IDENTITY } from './id'
 
 const identity = new Identity(system)
 
-assert.deepEqual(identity.getUnitBundleSpec(), {
+assert.deepEqual(identity.getBundle(), {
   unit: { id: ID_IDENTITY },
 })
 
 identity.push('a', 0)
 
-assert.deepEqual(identity.getUnitBundleSpec(), {
+assert.deepEqual(identity.getBundle(), {
   unit: {
     id: ID_IDENTITY,
     input: {

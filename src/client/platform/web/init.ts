@@ -142,11 +142,6 @@ export default function webInit(
 
   window.addEventListener('error', errorListener)
 
-  document.addEventListener('scroll', scrollListener, {
-    // passive: true,
-    capture: true,
-  })
-
   return () => {
     root.removeEventListener('blur', blurListener, true)
     root.removeEventListener('keydown', keyDownListener, true)

@@ -1,7 +1,8 @@
 import * as assert from 'assert'
 import { extractSubSpec, GraphSpecSelection } from '../../spec/extract'
 import _specs from '../../system/_specs'
-import { GraphSpec, Specs } from '../../types'
+import { Specs } from '../../types'
+import { GraphSpec } from '../../types/GraphSpec'
 import { ID_IDENTITY } from './id'
 
 const NEW_UNIT_ID = 'new'

@@ -70,7 +70,7 @@ assert.deepEqual(bundle.take('bundle'), {
   specs: {},
 })
 
-const identity = graph.refUnit('identity')
+const identity = graph.getUnit('identity')
 
 identity.push('a', 1)
 
